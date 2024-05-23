@@ -1,0 +1,44 @@
+{
+  "name": "api-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.11",
+    "@prisma/client": "^5.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "express-validator": "^7.0.1",
+    "firebase": "^10.11.1",
+    "livekit-server-sdk": "^2.1.2",
+    "socket.io": "^4.7.5",
+    "stream-chat": "^8.30.0",
+    "uuid": "^9.0.1",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/express-validator": "^3.0.0",
+    "@types/node": "^20.11.30",
+    "@types/uuid": "^9.0.8",
+    "esbuild-register": "^3.5.0",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.11.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}
